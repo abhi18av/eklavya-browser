@@ -6,14 +6,16 @@
   :dependencies [[org.clojure/clojure "1.9.0"]
                  [sparkledriver "0.2.2"]
                  [zcaudate/hara "2.8.2"]
+                 [etaoin "0.2.8-SNAPSHOT"]
 
 ;; This inclusion causes many errors in the code
 ;                 [zcaudate/lucid "1.4.4"]
 ;                 [zcaudate/lucid "1.4.4" :exclusions [org.slf4j/slf4j-log4j] ]
-                 [commons-codec "1.9"]
+;; No difference in startup error wrt commons-codec
+;                 [commons-codec "1.9"]
 
 
- [com.datomic/client-pro "0.8.14"]
+                [com.datomic/client-pro "0.8.14"]
 
 ;; https://github.com/bhauman/rebel-readline
 
