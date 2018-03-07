@@ -1,0 +1,76 @@
+2018-03-07 18:23:47.147 INFO  default    datomic.slf4j.bridge - SLF4J Bridge installed
+2018-03-07 18:23:48.039 INFO  default    org.eclipse.jetty.util.log - Logging initialized @1739ms
+2018-03-07 18:23:49.343 INFO  default    datomic.domain - {:event :cache/create, :cache-bytes 514588672, :pid 16584, :tid 1}
+2018-03-07 18:23:49.346 INFO  default    datomic.process-monitor - {:event :metrics/initializing, :metricsCallback clojure.core/identity, :phase :begin, :pid 16584, :tid 1}
+2018-03-07 18:23:49.347 INFO  default    datomic.process-monitor - {:event :metrics/initializing, :metricsCallback clojure.core/identity, :msec 0.408, :phase :end, :pid 16584, :tid 1}
+2018-03-07 18:23:49.347 INFO  default    datomic.process-monitor - {:metrics/started clojure.core/identity, :pid 16584, :tid 1}
+2018-03-07 18:23:49.350 INFO  default    datomic.process-monitor - {:DbAddFulltextMsec {:lo 0, :hi 59, :sum 78, :count 7}, :AvailableMB 784.0, :ObjectCacheCount 0, :event :metrics, :pid 16584, :tid 13}
+2018-03-07 18:23:50.552 INFO  default    datomic.cast2slf4j - {:msg "starting :cognitect.nano-impl.server/create", :type :event, :tid 12, :timestamp 1520427230551, :pid 16584}
+2018-03-07 18:23:50.577 INFO  default    org.eclipse.jetty.server.Server - jetty-9.3.7.v20160115
+2018-03-07 18:23:50.597 INFO  default    o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@4ad896f7{/,null,AVAILABLE}
+2018-03-07 18:23:50.601 INFO  default    o.e.jetty.util.ssl.SslContextFactory - x509=X509@23f5008a(transactor,h=[],w=[]) for SslContextFactory@44abdb1f(null,null)
+2018-03-07 18:23:50.604 INFO  default    o.e.jetty.server.ServerConnector - Started ServerConnector@77ab5214{SSL,[ssl, http/1.1]}{localhost:8998}
+2018-03-07 18:23:50.604 INFO  default    org.eclipse.jetty.server.Server - Started @4304ms
+2018-03-07 18:23:50.609 INFO  default    datomic.cast2slf4j - {:msg "PeerServerStarted", :options {:host "localhost", :concurrency 16, :port 8998, :db {"hello" "datomic:mem://hello"}}, :type :event, :tid 12, :timestamp 1520427230609, :pid 16584}
+2018-03-07 18:24:49.350 INFO  default    datomic.process-monitor - {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :AvailableMB 727.0, :ObjectCacheCount 0, :event :metrics, :pid 16584, :tid 14}
+2018-03-07 18:25:27.388 INFO  default    datomic.slf4j.bridge - SLF4J Bridge installed
+2018-03-07 18:25:28.392 INFO  default    org.eclipse.jetty.util.log - Logging initialized @1854ms
+2018-03-07 18:25:29.852 INFO  default    datomic.domain - {:event :cache/create, :cache-bytes 514588672, :pid 17189, :tid 1}
+2018-03-07 18:25:29.857 INFO  default    datomic.process-monitor - {:event :metrics/initializing, :metricsCallback clojure.core/identity, :phase :begin, :pid 17189, :tid 1}
+2018-03-07 18:25:29.858 INFO  default    datomic.process-monitor - {:event :metrics/initializing, :metricsCallback clojure.core/identity, :msec 0.475, :phase :end, :pid 17189, :tid 1}
+2018-03-07 18:25:29.858 INFO  default    datomic.process-monitor - {:metrics/started clojure.core/identity, :pid 17189, :tid 1}
+2018-03-07 18:25:29.861 INFO  default    datomic.process-monitor - {:DbAddFulltextMsec {:lo 0, :hi 61, :sum 81, :count 7}, :AvailableMB 784.0, :ObjectCacheCount 0, :event :metrics, :pid 17189, :tid 13}
+2018-03-07 18:25:31.111 INFO  default    datomic.cast2slf4j - {:msg "starting :cognitect.nano-impl.server/create", :type :event, :tid 12, :timestamp 1520427331110, :pid 17189}
+2018-03-07 18:25:31.147 INFO  default    org.eclipse.jetty.server.Server - jetty-9.3.7.v20160115
+2018-03-07 18:25:31.169 INFO  default    o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@4ad896f7{/,null,AVAILABLE}
+2018-03-07 18:25:31.173 INFO  default    o.e.jetty.util.ssl.SslContextFactory - x509=X509@23f5008a(transactor,h=[],w=[]) for SslContextFactory@44abdb1f(null,null)
+2018-03-07 18:25:31.177 INFO  default    o.e.jetty.server.ServerConnector - Started ServerConnector@77ab5214{SSL,[ssl, http/1.1]}{localhost:8998}
+2018-03-07 18:25:31.177 INFO  default    org.eclipse.jetty.server.Server - Started @4639ms
+2018-03-07 18:25:31.182 INFO  default    datomic.cast2slf4j - {:msg "PeerServerStarted", :options {:host "localhost", :concurrency 16, :port 8998, :db {"hello" "datomic:mem://hello"}}, :type :event, :tid 12, :timestamp 1520427331181, :pid 17189}
+2018-03-07 18:26:29.863 INFO  default    datomic.process-monitor - {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :AvailableMB 725.0, :ObjectCacheCount 0, :event :metrics, :pid 17189, :tid 14}
+2018-03-07 18:27:29.863 INFO  default    datomic.process-monitor - {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :AvailableMB 725.0, :ObjectCacheCount 0, :event :metrics, :pid 17189, :tid 14}
+2018-03-07 18:28:29.864 INFO  default    datomic.process-monitor - {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :AvailableMB 725.0, :ObjectCacheCount 0, :event :metrics, :pid 17189, :tid 14}
+2018-03-07 18:29:29.863 INFO  default    datomic.process-monitor - {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :AvailableMB 725.0, :ObjectCacheCount 0, :event :metrics, :pid 17189, :tid 14}
+2018-03-07 18:30:29.864 INFO  default    datomic.process-monitor - {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :AvailableMB 725.0, :ObjectCacheCount 0, :event :metrics, :pid 17189, :tid 14}
+2018-03-07 18:31:29.863 INFO  default    datomic.process-monitor - {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :AvailableMB 725.0, :ObjectCacheCount 0, :event :metrics, :pid 17189, :tid 14}
+2018-03-07 18:32:29.864 INFO  default    datomic.process-monitor - {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :AvailableMB 725.0, :ObjectCacheCount 0, :event :metrics, :pid 17189, :tid 14}
+2018-03-07 18:33:29.864 INFO  default    datomic.process-monitor - {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :AvailableMB 725.0, :ObjectCacheCount 0, :event :metrics, :pid 17189, :tid 14}
+2018-03-07 18:34:29.863 INFO  default    datomic.process-monitor - {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :AvailableMB 725.0, :ObjectCacheCount 0, :event :metrics, :pid 17189, :tid 14}
+2018-03-07 18:35:29.864 INFO  default    datomic.process-monitor - {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :AvailableMB 725.0, :ObjectCacheCount 0, :event :metrics, :pid 17189, :tid 14}
+2018-03-07 18:36:29.863 INFO  default    datomic.process-monitor - {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :AvailableMB 725.0, :ObjectCacheCount 0, :event :metrics, :pid 17189, :tid 14}
+2018-03-07 18:37:29.863 INFO  default    datomic.process-monitor - {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :AvailableMB 725.0, :ObjectCacheCount 0, :event :metrics, :pid 17189, :tid 14}
+2018-03-07 18:38:29.864 INFO  default    datomic.process-monitor - {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :AvailableMB 725.0, :ObjectCacheCount 0, :event :metrics, :pid 17189, :tid 14}
+2018-03-07 18:39:29.864 INFO  default    datomic.process-monitor - {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :AvailableMB 725.0, :ObjectCacheCount 0, :event :metrics, :pid 17189, :tid 14}
+2018-03-07 18:40:29.864 INFO  default    datomic.process-monitor - {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :AvailableMB 725.0, :ObjectCacheCount 0, :event :metrics, :pid 17189, :tid 14}
+2018-03-07 18:41:29.863 INFO  default    datomic.process-monitor - {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :AvailableMB 725.0, :ObjectCacheCount 0, :event :metrics, :pid 17189, :tid 14}
+2018-03-07 18:42:29.863 INFO  default    datomic.process-monitor - {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :AvailableMB 725.0, :ObjectCacheCount 0, :event :metrics, :pid 17189, :tid 14}
+2018-03-07 18:43:29.864 INFO  default    datomic.process-monitor - {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :AvailableMB 725.0, :ObjectCacheCount 0, :event :metrics, :pid 17189, :tid 14}
+2018-03-07 18:44:29.864 INFO  default    datomic.process-monitor - {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :AvailableMB 725.0, :ObjectCacheCount 0, :event :metrics, :pid 17189, :tid 14}
+2018-03-07 18:45:29.864 INFO  default    datomic.process-monitor - {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :AvailableMB 725.0, :ObjectCacheCount 0, :event :metrics, :pid 17189, :tid 14}
+2018-03-07 18:46:29.865 INFO  default    datomic.process-monitor - {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :AvailableMB 725.0, :ObjectCacheCount 0, :event :metrics, :pid 17189, :tid 14}
+2018-03-07 18:47:29.865 INFO  default    datomic.process-monitor - {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :AvailableMB 725.0, :ObjectCacheCount 0, :event :metrics, :pid 17189, :tid 14}
+2018-03-07 18:48:29.864 INFO  default    datomic.process-monitor - {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :AvailableMB 725.0, :ObjectCacheCount 0, :event :metrics, :pid 17189, :tid 14}
+2018-03-07 18:49:29.865 INFO  default    datomic.process-monitor - {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :AvailableMB 725.0, :ObjectCacheCount 0, :event :metrics, :pid 17189, :tid 14}
+2018-03-07 18:50:29.865 INFO  default    datomic.process-monitor - {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :AvailableMB 725.0, :ObjectCacheCount 0, :event :metrics, :pid 17189, :tid 14}
+2018-03-07 18:51:29.865 INFO  default    datomic.process-monitor - {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :AvailableMB 725.0, :ObjectCacheCount 0, :event :metrics, :pid 17189, :tid 14}
+2018-03-07 18:52:29.865 INFO  default    datomic.process-monitor - {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :AvailableMB 725.0, :ObjectCacheCount 0, :event :metrics, :pid 17189, :tid 14}
+2018-03-07 18:53:29.864 INFO  default    datomic.process-monitor - {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :AvailableMB 725.0, :ObjectCacheCount 0, :event :metrics, :pid 17189, :tid 14}
+2018-03-07 18:54:29.864 INFO  default    datomic.process-monitor - {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :AvailableMB 725.0, :ObjectCacheCount 0, :event :metrics, :pid 17189, :tid 14}
+2018-03-07 18:55:29.865 INFO  default    datomic.process-monitor - {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :AvailableMB 725.0, :ObjectCacheCount 0, :event :metrics, :pid 17189, :tid 14}
+2018-03-07 18:56:29.865 INFO  default    datomic.process-monitor - {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :AvailableMB 725.0, :ObjectCacheCount 0, :event :metrics, :pid 17189, :tid 14}
+2018-03-07 18:57:29.865 INFO  default    datomic.process-monitor - {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :AvailableMB 725.0, :ObjectCacheCount 0, :event :metrics, :pid 17189, :tid 14}
+2018-03-07 18:58:29.865 INFO  default    datomic.process-monitor - {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :AvailableMB 725.0, :ObjectCacheCount 0, :event :metrics, :pid 17189, :tid 14}
+2018-03-07 18:59:29.865 INFO  default    datomic.process-monitor - {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :AvailableMB 720.0, :ObjectCacheCount 0, :event :metrics, :pid 17189, :tid 14}
+2018-03-07 19:00:29.866 INFO  default    datomic.process-monitor - {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :AvailableMB 713.0, :ObjectCacheCount 0, :event :metrics, :pid 17189, :tid 14}
+2018-03-07 19:01:29.866 INFO  default    datomic.process-monitor - {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :AvailableMB 713.0, :ObjectCacheCount 0, :event :metrics, :pid 17189, :tid 14}
+2018-03-07 19:02:29.866 INFO  default    datomic.process-monitor - {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :AvailableMB 713.0, :ObjectCacheCount 0, :event :metrics, :pid 17189, :tid 14}
+2018-03-07 19:03:29.866 INFO  default    datomic.process-monitor - {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :AvailableMB 713.0, :ObjectCacheCount 0, :event :metrics, :pid 17189, :tid 14}
+2018-03-07 19:04:29.866 INFO  default    datomic.process-monitor - {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :AvailableMB 713.0, :ObjectCacheCount 0, :event :metrics, :pid 17189, :tid 14}
+2018-03-07 19:05:29.866 INFO  default    datomic.process-monitor - {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :AvailableMB 713.0, :ObjectCacheCount 0, :event :metrics, :pid 17189, :tid 14}
+2018-03-07 19:06:29.866 INFO  default    datomic.process-monitor - {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :AvailableMB 713.0, :ObjectCacheCount 0, :event :metrics, :pid 17189, :tid 14}
+2018-03-07 19:07:29.867 INFO  default    datomic.process-monitor - {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :AvailableMB 713.0, :ObjectCacheCount 0, :event :metrics, :pid 17189, :tid 14}
+2018-03-07 19:08:29.867 INFO  default    datomic.process-monitor - {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :AvailableMB 713.0, :ObjectCacheCount 0, :event :metrics, :pid 17189, :tid 14}
+2018-03-07 19:09:29.867 INFO  default    datomic.process-monitor - {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :AvailableMB 713.0, :ObjectCacheCount 0, :event :metrics, :pid 17189, :tid 14}
+2018-03-07 19:10:29.867 INFO  default    datomic.process-monitor - {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :AvailableMB 713.0, :ObjectCacheCount 0, :event :metrics, :pid 17189, :tid 14}
+2018-03-07 19:11:29.867 INFO  default    datomic.process-monitor - {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :AvailableMB 713.0, :ObjectCacheCount 0, :event :metrics, :pid 17189, :tid 14}
+2018-03-07 19:12:29.867 INFO  default    datomic.process-monitor - {:MetricsReport {:lo 1, :hi 1, :sum 1, :count 1}, :AvailableMB 713.0, :ObjectCacheCount 0, :event :metrics, :pid 17189, :tid 14}
